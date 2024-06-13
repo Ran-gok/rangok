@@ -1,0 +1,52 @@
+{
+  "replaces": [
+    {
+      "search": "^(初語|初議|初詳|初話)$",
+      "replace": "初詣"
+    },
+    {
+      "search": ":",
+      "replace": "："
+    },
+    {
+      "search": "(\"|“)",
+      "replace": "”"
+    },
+    {
+      "search": "アヤべ",
+      "replace": "アヤベ"
+    },
+    {
+      "search": "\\?",
+      "replace": "？"
+    },
+    {
+      "search": "^(.+?)(7|/)$",
+      "replace": "$1！"
+    },
+    {
+      "search": "/",
+      "replace": "！"
+    },
+    {
+      "search": "(….|.…)！$",
+      "replace": "……！"
+    },
+    {
+      "search": "成切”",
+      "replace": "成功”"
+    },
+    {
+      "search": "\\(",
+      "replace": "（"
+    },
+    {
+      "search": "\\)",
+      "replace": "）"
+    },
+    {
+      "search": "豆合宿",
+      "replace": "夏合宿"
+    }
+  ]
+}
